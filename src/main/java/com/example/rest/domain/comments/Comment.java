@@ -4,10 +4,12 @@ package com.example.rest.domain.comments;
 import com.example.rest.domain.boards.Board;
 import com.example.rest.domain.members.Member;
 import jakarta.persistence.*;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 @Entity
 @NoArgsConstructor
+@Getter
 public class Comment {
 
     @Id

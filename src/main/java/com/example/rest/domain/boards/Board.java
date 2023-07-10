@@ -4,12 +4,14 @@ package com.example.rest.domain.boards;
 import com.example.rest.domain.comments.Comment;
 import com.example.rest.domain.members.Member;
 import jakarta.persistence.*;
+import lombok.Getter;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
 
 @Entity
 @NoArgsConstructor
+@Getter
 public class Board {
 
     @Id
