@@ -2,6 +2,7 @@ package com.example.rest.domain.members;
 
 
 import com.example.rest.domain.boards.Board;
+import com.example.rest.domain.comments.Comment;
 import jakarta.persistence.*;
 import lombok.NoArgsConstructor;
 
@@ -22,6 +23,7 @@ public class Member {
 
     @OneToMany(mappedBy = "member")
     private List<Board> boards;
-
+    @OneToMany(mappedBy = "member")
+    private List<Comment> comments;
 
 }
