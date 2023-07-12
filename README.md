@@ -8,4 +8,7 @@ Spring Data Rest Test 용 코드입니다.
 * H2 Database
 
 ## 블로그 포스팅
+01-base
 https://l-eazzy.tistory.com/15
+02-custom_exception
+https://l-eazzy.tistory.com/16
